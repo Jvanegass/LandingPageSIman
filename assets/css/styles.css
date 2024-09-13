@@ -1,0 +1,758 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Bubbles&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Matemasie&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Bubbles&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-color: #a83338 !important;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.img1,
+.img3,
+.img2 {
+    width: 100%;
+    height: 88vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.img1{
+    object-fit: cover;
+}
+
+.column-center .texto1{
+    margin-top: 30%;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color:#e80c17;
+    height: 50vh;
+    padding: 50px;
+    background-color:white;
+    border-radius: 65% 35% 60% 40% / 50% 50% 50% 50%;
+}
+
+.texto1 h1{
+    margin-top: 15%;
+    font-size: 3em;
+    transition: 0.6s all;
+}
+
+.texto1 h1:hover{
+    text-shadow: 0.1em 0.1em 0.5em #c88716;
+    transform: scale(1.2);
+}
+
+.offers-box {
+    padding: 50px 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.offers-box .header-offers{
+    width: 100%;
+    text-align: center;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+.card{
+    height: 400px;
+    padding: 0 15px;
+    transition: 0.6s all;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 15px 5px rgb(168 51 56 / 50%);
+    transform: scale(1.03);
+}
+
+.card-img-top{
+    width: 100%;
+    height: 30vh;
+    object-fit: scale-down;
+    margin: 10px;
+}
+
+.card-price{
+    color: #a83338;
+}
+
+.card-title h4{
+    font-size: 1.2em;
+}
+
+.category-box{
+    display: flex;
+}
+
+.d-block{
+    object-fit: fill;
+    border-radius: 100%;
+}
+
+.category-box .img-category{
+    padding: 2px;
+    margin-left: 0 auto;
+}
+
+.carousel-inner{
+    border-radius: 50%;
+}
+
+.category-header{
+    width: 100%;
+    text-align: center;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.circles-1, .circles-3{
+    margin-left: 50%;
+    display: block;
+    width: 30%;
+}
+
+.circles-2, .circles-4{
+    margin-left: 15%;
+    display: block;
+    width: 30%;
+}
+
+.circles-5, .circles-7{
+    margin-left: 15%;
+    display: block;
+    width: 30%;
+}
+
+.circles-6, .circles-8{
+    margin-left: 50%;
+    display: block;
+    width: 30%;
+}
+
+.circles-1, .circles-2, .circles-3, .circles-4, .circles-5, .circles-6, .circles-7, .circles-8{
+    transition: 0.6s all;    
+}
+
+.circles-1:hover, .circles-2:hover, .circles-3:hover, .circles-4:hover, .circles-5:hover, .circles-6:hover, .circles-7:hover, .circles-8:hover{
+    transform: scale(1.2);
+}
+
+.call-to-action{
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.info{
+    width: 50%;
+    display: flex;
+    padding: 5%;
+}
+
+.info2{
+    display: flex;
+    width: 100%;
+}
+
+.info2 .texto1-container, .texto2-container, .texto3-container{
+    width: 15vW;
+}
+
+.call-to-action .form-container{
+    width: 100%;
+    background-color: #f1f1f1;
+    display: block;
+    margin-left: 5%;
+}
+
+.form-container .logo2{
+    width: 50%;
+}
+
+.texto1-container, .texto2-container, .texto3-container h6{
+    text-align: left;
+}
+
+.texto1-container ul, .texto2-container ul, .texto3-container ul{
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+    line-height: 2.5em;
+    font-size: 1.1em;
+}
+
+.texto1-container a, .texto2-container a, .texto3-container a{
+    text-decoration: blink;
+    color: black;
+}
+
+.phone{
+    display: flex;
+}
+
+.phone-icon{
+    margin-right: 10px;
+}
+
+.phone-text h6{
+    font-size: 1.2em;
+}
+
+.about-container{
+    display: flex;
+    width: 100%;
+    
+}
+
+.about-container .about-text{
+    background-color: white;
+    margin: 0 auto;
+    margin-right: 5%;
+    margin-top: 5%;
+    rotate: 10deg;
+    width: 40%;
+    height: 80%;
+    border-radius: 40px;
+}
+
+.about-container .about-text .text{
+    width: 100%;
+    padding: 10%;
+    font-family: "Nerko One", cursive;
+    font-size: 2em;
+
+}
+
+.about-container .about-text h4{
+    text-align: center;
+    color: #a83338;
+    margin-top: 5%;
+    font-family: "Nerko One", cursive;
+    font-size: 2.2em;
+}
+
+.about-container .about-image .image{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+/* ---- Responsive -----*/
+
+@media (max-width: 600px) {
+    .column-center .texto1{
+        margin-top: 20%;
+        margin-bottom: 20%;
+        font-family: "Matemasie", sans-serif;
+        font-weight: 400;
+        font-size: 0.5em;
+        font-style: normal;
+        text-align: center;
+        color:#e80c17;
+        height: 50%;
+        padding: 50px;
+        background-color:white;
+        border-radius: 65% 35% 60% 40% / 50% 50% 50% 50%;
+    }
+
+    .img1{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+}
+
+    .column-center .texto1 h1{
+            margin-top: 1%;
+            font-size: 3em;
+            transition: 0.6s all;
+    }
+
+    .offers-box {
+        padding: 50px 0;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .offers-box .header-offers{
+        text-align: center;
+        font-family: "Nerko One", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(0, 0, 0);
+    }
+
+    .offers-box .header-offers h2{
+        font-size: 1.1em;
+    }
+    
+    .card{
+        height: 250px;
+        padding: 0 15px;
+        transition: 0.6s all;
+    }
+    
+    .card:hover{
+        box-shadow: 5px 5px 15px 5px rgb(168 51 56 / 50%);
+        transform: scale(1);
+    }
+    
+    .card-img-top{
+        width: 100%;
+        height: 15vh;
+        object-fit: scale-down;
+        margin: 5px;
+    }
+    
+    .card-price{
+        color: #a83338;
+        font-size: 0.7em;
+    }
+    
+    .card-title h4{
+        font-size: 0.8em;
+    }
+
+    .call-to-action .form-container{
+        width: 100%;
+        background-color: #f1f1f1;
+        display: block;
+        margin-left: 5%;
+    }
+
+    .info{
+        width: 100%;
+        display: block;
+    }
+
+    .info2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .form-container .logo2{
+        width: 50vW;
+    }
+
+    .info2 .texto1-container, .texto2-container, .texto3-container{
+        width: 100px;
+
+    }
+    
+    .texto1-container h6, .texto2-container h6, .texto3-container h6{
+        text-align: left;
+        font-size: 0.7rem;
+    }
+    
+    .texto1-container ul, .texto2-container ul, .texto3-container ul{
+        list-style: none;
+        text-align: left;
+        padding: 0px;
+        line-height: 1.7em;
+        font-size: 0.6em;
+    }
+
+    .info2 .d-flex{
+        height: 50%;
+        margin-left: 15px;
+    }
+    
+    .texto1-container a, .texto2-container a, .texto3-container a{
+        text-decoration: blink;
+        color: black;
+    }
+
+    .form{
+        width: 90%;
+    }
+    
+    .form-text1 p{
+        font-size: 0.8em;
+    }
+
+    .phone{
+        display: flex;
+    }
+    
+    .phone-icon{
+        margin-right: 10px;
+    }
+    
+    .phone-text h6{
+        font-size: 0.8em;
+    }
+
+    .form-text2{
+        font-size: 0.8em;
+        margin-bottom: 30px;
+    }
+        
+    }
+  
+  /* Pantallas medianas (tablets) */
+  @media (min-width: 601px) and (max-width: 1023px) {
+    * {
+        box-sizing: border-box;
+        
+    }
+    
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    .column-center .texto1{
+        width: 100%;
+        margin-top: 15%;
+        margin-bottom: 30%;
+        font-family: "Matemasie", sans-serif;
+        font-weight: 400;
+        font-size: 0.5em;
+        font-style: normal;
+        text-align: center;
+        color:#e80c17;
+        height: 70%;;
+        padding: 50px;
+        background-color:white;
+        border-radius: 65% 35% 60% 40% / 50% 50% 50% 50%;
+        overflow: hidden;
+    }
+
+    .img1{
+    width: 100%;
+    object-position: center;
+    height: 90vh;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+}
+
+    .column-center .texto1 h1{
+    margin-top: 15%;
+    padding: 10%;
+    font-size: 3rem;
+    transition: 0.6s all;
+    }
+
+    .offers-box {
+        padding: 70px 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    
+    .offers-box .header-offers{
+        width: 100%;
+        text-align: center;
+        font-family: "Nerko One", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(0, 0, 0);
+    }
+
+    .offers-box .header-offers h2{
+        font-size: 2rem;
+    }
+    
+    .card{
+        height: 265px;
+        padding: 0 15px;
+        transition: 0.6s all;
+    }
+    
+    .card:hover{
+        box-shadow: 5px 5px 15px 5px rgb(168 51 56 / 50%);
+        transform: scale(1);
+    }
+    
+    .card-img-top{
+        width: 100%;
+        height: 10vh;
+        object-fit: scale-down;
+        margin: 5px;
+    }
+    
+    .card-price{
+        color: #a83338;
+        font-size: 0.3rem;
+    }
+    
+    .card-title h4{
+        font-size: 1rem;
+    }
+
+    .call-to-action .form-container{
+        width: 90%;
+        background-color: #f1f1f1;
+        display: block;
+        margin-left: 5%;
+    }
+
+    .category-header{
+        width: 100%;
+    }
+
+    .circles-1,.circles-2,.circles-3,.circles-4,.circles-5,.circles-6,.circles-7,.circles-8{
+        width: 35%;
+    }
+
+    .info{
+        width: 100%;
+        display: block;
+    }
+
+    .info2{
+        width: 100%;
+        display: flex;
+    }
+    
+    .form-container .logo2{
+        width: 50vW;
+    }
+
+    .info2 .texto1-container, .texto2-container, .texto3-container{
+        width: 25%;
+    }
+    
+    .texto1-container h6, .texto2-container h6, .texto3-container h6{
+        text-align: left;
+        font-size: 1rem;
+    }
+    
+    .texto1-container ul, .texto2-container ul, .texto3-container ul{
+        list-style: none;
+        text-align: left;
+        padding: 0px;
+        line-height: 1.7em;
+        font-size: 0.9rem;
+    }
+
+    .info2{
+        justify-content: center;
+    }
+
+    .info2 .d-flex{
+        height: 50%;
+    }
+    
+    .texto1-container a, .texto2-container a, .texto3-container a{
+        text-decoration: blink;
+        color: black;
+    }
+
+    .form{
+        width: 90%;
+    }
+    
+    .form-text1 p{
+        font-size: 1.2rem;
+    }
+
+    .phone{
+        display: flex;
+    }
+    
+    .phone-icon{
+        margin-right: 10px;
+    }
+    
+    .phone-text h6{
+        font-size: 1.3rem;
+    }
+
+    .form-text2{
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+    }
+  }
+  
+  /* Pantallas grandes (escritorio) */
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    * {
+        box-sizing: border-box;
+        
+    }
+    
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    .column-center .texto1{
+        width: 100%;
+        margin-top: 15%;
+        margin-bottom: 30%;
+        font-family: "Matemasie", sans-serif;
+        font-weight: 300;
+        font-size: 0.5em;
+        font-style: normal;
+        text-align: center;
+        color:#e80c17;
+        height: 70%;;
+        padding: 50px;
+        background-color:white;
+        border-radius: 65% 35% 60% 40% / 50% 50% 50% 50%;
+        overflow: hidden;
+    }
+
+    .img1{
+    width: 100%;
+    object-position: center;
+    height: 90vh;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+}
+
+    .column-center .texto1 h1{
+    margin-top: 20%;
+    padding: 10%;
+    font-size: 2.5rem;
+    transition: 0.6s all;
+    }
+
+    .offers-box {
+        padding: 70px 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    
+    .offers-box .header-offers{
+        width: 100%;
+        text-align: center;
+        font-family: "Nerko One", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(0, 0, 0);
+    }
+
+    .offers-box .header-offers h2{
+        font-size: 2rem;
+    }
+    
+    .card{
+        height: 300px;
+        padding: 0 15px;
+        transition: 0.6s all;
+    }
+    
+    .card:hover{
+        box-shadow: 5px 5px 15px 5px rgb(168 51 56 / 50%);
+        transform: scale(1);
+    }
+    
+    .card-img-top{
+        width: 100%;
+        height: 20vh;
+        object-fit: scale-down;
+        margin: 5px;
+    }
+    
+    .card-price{
+        color: #a83338;
+        font-size: 0.3rem;
+    }
+    
+    .card-title h4{
+        font-size: 1rem;
+    }
+
+    .call-to-action .form-container{
+        width: 50%;
+        background-color: #f1f1f1;
+        display: block;
+        margin-left: 5%;
+    }
+
+    .category-header{
+        width: 100%;
+    }
+
+    .circles-1,.circles-2,.circles-3,.circles-4,.circles-5,.circles-6,.circles-7,.circles-8{
+        width: 25%;
+    }
+
+    .info{
+        width: 100%;
+        display: flex;
+    }
+
+    .info2{
+        width: 100%;
+        display: flex;
+    }
+    
+    .form-container .logo2{
+        width: 25vW;
+    }
+
+    .info2 .texto1-container, .texto2-container, .texto3-container{
+        width: 30%;
+    }
+    
+    .texto1-container h6, .texto2-container h6, .texto3-container h6{
+        text-align: left;
+        font-size: 1rem;
+    }
+    
+    .texto1-container ul, .texto2-container ul, .texto3-container ul{
+        list-style: none;
+        text-align: left;
+        padding: 0px;
+        line-height: 1.7em;
+        font-size: 0.9rem;
+    }
+
+    .info2{
+        justify-content: center;
+    }
+
+    .info2 .d-flex{
+        height: 50%;
+    }
+    
+    .texto1-container a, .texto2-container a, .texto3-container a{
+        text-decoration: blink;
+        color: black;
+    }
+
+    .form{
+        width: 90%;
+    }
+    
+    .form-text1 p{
+        font-size: 1.2rem;
+    }
+
+    .phone{
+        display: flex;
+    }
+    
+    .phone-icon{
+        margin-right: 10px;
+    }
+    
+    .phone-text h6{
+        font-size: 1.3rem;
+    }
+
+    .form-text2{
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+    }
+  }
+
